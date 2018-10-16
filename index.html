@@ -69,7 +69,7 @@
 			font-size: 1.1em;
 		}
 
-		li {
+		.enlace {
 			display: inline-block;
 			margin-left: 6em;
 			margin-right: 8em;
@@ -80,16 +80,13 @@
 
 		}
 
-		li:hover {
+		.butom:hover {
 			background-color: gray;
-			padding-top: 1.5em;
-			padding-bottom: 1.5em;
-			padding-left: 1.5em;
-			padding-right: 1.5em;
-
+			padding-left: 1.1em;
+			padding-right: 1.1em;
 		}
 
-		ul {
+		.menu {
 			padding-left: 25em;
 			padding-right: 25em;
 		}
@@ -129,6 +126,13 @@
 			font-size: 1.5em;
 		}
 
+		.secciones {
+			display: inline-block;
+			margin-left: 1em;
+			border-style: solid;
+			background-color: mediumpurple;
+		}
+
 
 
 
@@ -136,7 +140,7 @@
 	</style>
 </head>
 <body>
-	<h1>Novedades de Android 9 PIE</h1>
+	<h1 id="iniciopag">Novedades de Android 9 PIE</h1>
 	<hr>
 
 		<p class="introduction">
@@ -145,16 +149,26 @@
 
 	<nav>
 		<ul class="menu">
-			<li><a class="butom" href="https://slack.com/intl/es-es/downloads/android">Descargas</a></li>
-			<li><a class="butom" href="https://developer.android.com/about/versions/pie/android-9.0?hl=es-419">Developers</a></li>
-			<li><a class="butom" href="index1.html">Actualizaciones</a></li>
+			<li class="enlace"><a class="butom" href="https://slack.com/intl/es-es/downloads/android">Descargas</a></li>
+			<li class="enlace"><a class="butom" href="https://developer.android.com/about/versions/pie/android-9.0?hl=es-419">Developers</a></li>
+			<li class="enlace"><a class="butom" href="index1.html">Actualizaciones</a></li>
 		</ul>
 	</nav>
+
+	<ul class="menu">
+		<li class="secciones"><a class="butom" href="#sec1">Nav. por gestos</a></li>
+		<li class="secciones"><a class="butom" href="#sec2">Digital Wellbeing</a></li>
+		<li class="secciones"><a class="butom" href="#sec3">Brillo adaptativo</a></li>
+		<li class="secciones"><a class="butom" href="#sec4">Bat. inteligente</a></li>
+		<li class="secciones"><a class="butom" href="#sec5">App. Action</a></li>
+		<li class="secciones"><a class="butom" href="#sec6">Más información</a></li>
+
+	</ul>
 
 
 	<h2><cite>Estas son las mejores novedades de Andorid 9 Pie</cite></h2>
 
-	<h3>Navegación por gestos</h3>
+	<h3 id="sec1">Navegación por gestos</h3>
 		<div class="parrafob">
 		<p class="text">
 		Ha sido una novedad criticada hasta la saciedad, y lo cierto es que motivos no han faltado. Amada y odiada a partes iguales, la navegación por gestos es, a pesar de todo, una de las mejores novedades de <b>Android 9.0</b>. Puede que su funcionamiento no esté del todo pulido actualmente, pero muy probablemente veamos cómo va cambiando con el paso del tiempo –de hecho, no me sorprendería ver un rediseño del sistema en octubre, junto a <b>Android 9.1</b>, y era un salto más que necesario ahora que la mayoría de fabricantes están apostando por los teléfono “todo pantalla”, en los que ya no hay hueco para los botones.
@@ -166,7 +180,7 @@
 	</div>
 	<p class="comentary">Aquellos que no se adapten al nuevo sistema de gestos, tendrán la capacidad de desactivarlo desde Ajustes > Sistema > Gestos.</p>
 
-	<h3 >Digital Wellbeing</h3>
+	<h3 id="sec2">Digital Wellbeing</h3>
 		<div class="parrafob">
 			<p class="text">
 			Pese a no estar incluida de forma nativa en <i>Android 9 Pie</i>, todos aquellos que quieran pueden acceder a la beta de Digital Wellbeing en su <q>Google Pixel</q>. Esta iniciativa consiste en una serie de herramientas muy útiles, que pretende concienciarnos sobre cómo y durante cuánto tiempo usamos nuestro smartphone, mostrando estadísticas como el número de notificaciones que recibimos o las veces que se desbloquea el dispositivo a lo largo del día, así como otras utilidades para desengancharnos del terminal.
@@ -181,7 +195,7 @@
 
 	<p class="comentary">De momento, Digital Wellbeing está en fase beta, pero puede ser instalado por todos aquellos usuarios de Android Pie.</p>
 
-	<h3>Brilo adaptativo</h3>
+	<h3 id="sec3">Brilo adaptativo</h3>
 		<div class="parrafob">
 			<p class="text">
 			En el brillo adaptativo, una de las mejores novedades de <em>Android 9.0</em>, encontramos el primer caso de inteligencia artificial aplicada al sistema operativo. Este sistema aprende sobre cómo el usuario suele configurar el brillo de la pantalla en cada situación dependiendo de la iluminación del ambiente, para posteriormente, adaptar el brillo de manera automática según lo aprendido.
@@ -194,7 +208,7 @@
 
 	<p class="comentary">El brillo adaptativo era una necesidad en Android desde hace años. Por fin, los usuarios podrán depender del brillo automático sin miedo a que los cambios de iluminación sean demasiado bruscos o no se adapten correctamente a la iluminación del ambiente.</p>
 
-	<h3>Batería inteligente</h3>
+	<h3 id="sec4">Batería inteligente</h3>
 		<div class="parrafob">
 			<p class="text">
 			Muy similar a la anterior característica es la batería inteligente. Desde hace años, Google libra una cruzada con el consumo de batería en Android, y parece que este sistema, también basado en IA, es la característica definitiva que estábamos esperando.
@@ -207,7 +221,7 @@
 		<img src="bateria.jpg" width="500" height="500" alt="Se muestra la imagen de batería inteligente">
 	</div>
 
-	<h3>App Actions y sugerencias inteligentes</h3>
+	<h3 id="sec5">App Actions y sugerencias inteligentes</h3>
 		<div class="parrafob">
 			<p class="text">
 			Continuamos con la inteligencia artificial de Android Pie, y encontramos otra de las mejores novedades de la nueva versión del sistema. Las App Actions son accesos directos rápidos que aparecerán en lo más alto del cajón de aplicaciones, y que se basan, de nuevo, en los hábitos del usuario para mostrar actividades que se podrían querer llevar a cabo a corto plazo. Por ejemplo, si todos los días viajas a un lugar, las App Actions mostrarán la ruta de Google Maps ya configurada para llegar a ese lugar y así conocer el tráfico existente en tiempo real.
@@ -220,12 +234,17 @@
 		<img src="sugerencias.gif" width="500" height="500" alt="sugerencias">
 	</div>
 
-	<h3><blockquote cite="https://www.android.com/versions/pie-9-0/">Más información <sub>1</sub></blockquote></h3>
+	<h3 id="sec6"><blockquote cite="https://www.android.com/versions/pie-9-0/">Más información <sub>1</sub></blockquote></h3>
 		<p>Puede obtener <ins title="Información avanza sobre el tema">mas información <sup>1</sup></ins> en el siguiente enlace:<a href="https://andro4all.com/2018/08/android-9-0-pie-analisis-opinion" target="_blanck" style="color: blue;">Información avanzada de Android 9 Pie</a></p>
 
 		<div>
 		<img src="android.gif"  alt="Gif Android">
 		</div>
+
+	<ul>
+		<li class="secciones"><a class="butom" href="#iniciopag">Incinio</a></li>
+	</ul>
+
 		<hr>
 		<footer>
 			Página realizada por: Juan Antonio Álvarez Fernández
