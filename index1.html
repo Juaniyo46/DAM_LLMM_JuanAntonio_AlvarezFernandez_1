@@ -12,8 +12,6 @@
 
 		h1 {
 			text-align: center;
-			border-style: groove;
-			border-color: darkcyan;
 			color:chocolate;
 		}
 
@@ -28,19 +26,60 @@
 		}
 
 		h2 {
-			color: teal;
-			border-style: dotted;
-			margin-right: 53%;
+			text-align: center;
+			border-style: double;
+			margin-right: 5em;
+			margin-left: 5em;
+			color: blue;
 		}
 
-		p {
-			border-style: dotted;
-			border-color: red;
+		.introduction{
+			text-align: center;
+			border-style: hidden;
+			background-color: darkcyan;
+			margin-left: 6em;
+			margin-right: 6em;
+			margin-top: 2em;
+			margin-bottom: 2em;
+			padding-top: 2em;
+			padding-bottom: 2em;
+			font-size: 1.1em;
+		}
+
+		a {
+			color: black;
+			text-decoration: none;
+		}
+
+		
+			
+		
+
+		h3 {
+			text-align: center;
 		}
 
 		ul {
-			border-style: dotted;
-			border-color: brown;
+			margin-left: 40%;
+			margin-right: 40%;
+			font-size: 1.1em;
+			list-style-type: none;
+
+		}
+
+		.contenido {
+			padding-left: 15%;
+			padding-right: 15%;
+			font-size: 1.2em;
+		}
+
+		.list {
+			border-style: outset;
+
+		}
+
+		.resaltado:hover {
+			color: red;
 		}
 
 
@@ -49,19 +88,20 @@
 <body>
 	
 	<h1>Actualizaciones a Android 9 Pie</h1>
+	<hr>
 
 		<div>
 			<img src="androidpie.jpg" width="500" height="300" alt="Imagen Android 9 Pie">
 		</div>
 
-		<p>Android 9 ya esta llegando a muchos de los celulares del mercado. Aqui mostraremos el calendario de actualizaciones de Android 9 a los diferentes dispositivos.</p>
+		<p class="introduction">Android 9 ya esta llegando a muchos de los celulares del mercado. Aqui mostraremos el calendario de actualizaciones de Android 9 a los diferentes dispositivos.</p>
 
 	<h2>El camino de liberación de la actualizacion de Android 9 Pie</h2>
 		
-			<p>Android Pie ha tenido cuatro versiones previas (una previa para desarrolladores y cuatro betas) como preparación para la llegada final de la actualización.<br>
+			<p class="contenido">Android Pie ha tenido cuatro versiones previas (una previa para desarrolladores y cuatro betas) como preparación para la llegada final de la actualización.<br>
 			Google reveló que Android 9 Pie tendrá cinco versiones previas (4 betas) antes de su liberación final que comenzó el 6 de agosto, primero con sus celulares Pixel.<br>
 			La liberación varía mucho dependiendo del dispositivo, pero en los últimos años las mismas empresas han tomado este liderazgo y este es más o menos el orden en el cual algunas empresas han habilitado las dos últimas generaciones de Android (Oreo, Nougat y Marshmallow) para sus celulares, tabletas y otros dispositivos.<br>
-			Como es lógico, Google tomó la delantera con Android Oreo para liberar la actualización antes que otras fabricantes, pero Sony fue la que llevó el liderato en esta ocasión al liberar la actualización antes que el propio desarrollador de Android.<br>
+			Como es lógico, Google tomó la delantera con Android Oreo para liberar la actualización antes que otras fabricantes, pero Sony fue la que llevó el liderato en esta ocasión al liberar la actualización antes que el propio desarrollador de Android.<br><br>
 			Esta ocasión es un poco diferente porque por primera vez ya hay celulares compatibles con la versión beta de Android Pie y la actualización podría llegar más rápido que de costumbre debido a Project Treble, la modularización del sistema operativo que permitiría que las actualizaciones lleguen más rápido que antes. Es posible que gracias a Treble la versión beta ya es compatible con celulares de diferentes fabricantes.</p>
 		
 
@@ -71,7 +111,9 @@
 		<br>
 
 	<h2>Celulares compatibles con Android Pie</h2>
-		<p>Google ya reveló qué celulares son compatibles con Android Pie en su página Web, pero también hay diferentes fabricantes que ya han dicho cuáles otros de sus celulares recibirán la actualización.</p>
+		<p class="contenido">Google ya reveló qué celulares son compatibles con Android Pie en su página Web, pero también hay diferentes fabricantes que ya han dicho cuáles otros de sus celulares recibirán la actualización.</p>
+
+		<div class="list">
 
 		<h3>Ya compatible con Android 9 Pie:</h3>
 			<ul>
@@ -80,7 +122,7 @@
 				<li>Google Pixel 2 (Actualizado)</li>
 				<li>Google Pixel 2 XL (Actualizado)</li>
 				<li>OnePlus 6 (Actualizado)</li>
-				<li><a href="https://www.cnet.com/es/noticias/android-pie-actualizar-android-9-descargar-celulares-compatibles/">Más información</a></li>
+				<li ><a class="resaltado" href="https://www.cnet.com/es/noticias/android-pie-actualizar-android-9-descargar-celulares-compatibles/">Más información</a></li>
 			</ul>
 
 		<h3>Confirmada la actualización a Andoroid Pie por las empresas:</h3>
@@ -94,10 +136,12 @@
 				<li>Nokia 6</li>
 				<li>OnePlus 5</li>
 				<li>OnePlus 5T</li>
-				<li><a href="https://www.cnet.com/es/noticias/android-pie-actualizar-android-9-descargar-celulares-compatibles/">Más información</a></li>
+				<li><a class="resaltado" href="https://www.cnet.com/es/noticias/android-pie-actualizar-android-9-descargar-celulares-compatibles/">Más información</a></li>
 			</ul>
+			</div>
 
-			<p>Sin embargo, hay otros celulares que esperamos o que al menos tiene la posibilidad de actualizarse a Android Pie. Aquí confirmamos los celulares que ya tienen confirmada la actualización Android Pie, al igual que otros teléfonos que son muy probables de poder actualizar Android a esta versión 9.</p>
+			<p class="contenido">Sin embargo, hay otros celulares que esperamos o que al menos tiene la posibilidad de actualizarse a Android Pie. Aquí confirmamos los celulares que ya tienen confirmada la actualización Android Pie, al igual que otros teléfonos que son muy probables de poder actualizar Android a esta versión 9.</p>
+			<hr>
 
 
 
