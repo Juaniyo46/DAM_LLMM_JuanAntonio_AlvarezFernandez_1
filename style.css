@@ -18,7 +18,7 @@
 			margin-left: 2em;
 			border-style: inset;
 			border-color: red;
-			margin-right: 58%;
+			margin-right: 48%;
 			padding-top: 0.2em;
 			padding-bottom: 0.2em; 
 			padding-left: 0.1em;
@@ -26,10 +26,10 @@
 
 		h3 {
 			color: navy;
-			font-size: 1.5em;
+			font-size: 1.7em;
 			margin-left: 2.5em;
 			border-style: dotted;
-			margin-right: 83%;
+			margin-right: 75%;
 		}
 
 		div {
@@ -38,17 +38,52 @@
 			text-align: center;
 		}
 
-		img {
+		.globalcontain {
+			overflow: auto;
+		}
+
+		.img {
+			width: 44%;
+			float: right;
+			margin: auto;
+
+		}
+
+		.img-left {
+			width: 37%;
+			float: left;
+			margin: auto;
+		}
+
+		.imgcontain {
+			width: 500px;
+			height: 385px;
 			border: 0.5em solid red;
 			border-radius: 20%;
 		}
 
+		.imgheader {
+			margin-left: 2em;
+			margin-top: 1em;
+			width: 400px;
+			height: 150px;
+		}
+
 		
 		.parrafob {
+			width: 50%;
+			float:left;
 			border-style: dashed;
 			border-color:plum;
-			margin-left: 5em;
-			margin-right: 5em;
+			margin: auto;
+		}
+
+		.parrafob-right {
+			width: 50%;
+			float:right;
+			border-style: dashed;
+			border-color:plum;
+			margin-right: 6em;
 		}
 
 		.introduction{
@@ -72,7 +107,14 @@
 			margin-bottom: 1em;
 			border-style: solid;
 			background-color: mediumpurple;
+		}
 
+		.enlaceheader{
+			display: inline-block;
+			margin-right: 2em;
+			
+			border-style: solid;
+			background-color: mediumpurple;
 		}
 
 		li:hover {
@@ -82,8 +124,13 @@
 		}
 
 		.menu {
-			padding-left: 25em;
-			padding-right: 25em;
+			padding-left: 5em;
+			padding-right: 5em;
+		}
+
+		.menuheader {
+			margin-top: 1em;
+			float: right;
 		}
 
 		.butom {
@@ -103,7 +150,7 @@
 			margin-left: 25em;
 			margin-right: 25em;
 			margin-top: 2em;
-			margin-bottom: 2em;
+			margin-bottom: 4em;
 			padding-top: 2em;
 			padding-bottom: 2em;
 			padding-left: 1em;
@@ -112,7 +159,12 @@
 		}
 
 		.text {
+			font-size: 1.5em;
 			color: darkred;
+		}
+
+		.textobajo {
+			margin-top: 4em;
 		}
 
 		footer {
@@ -122,11 +174,53 @@
 		}
 
 		.secciones {
-			display: inline-block;
+			display: block;
 			margin-left: 1em;
 			border-style: solid;
 			background-color: mediumpurple;
 		}
+
+		aside {
+			width: 20%;
+			float: left;
+		}
+
+		.spacemenu {
+			width: 80%;
+			float: right;
+		}
+		.inicio {
+			clear:both;
+		}
+
+		.secinicio{
+			display:inline ;
+			margin-left: 1em;
+			border-style: solid;
+			background-color: mediumpurple;
+		}
+
+		.info {
+			margin-left: 5em;
+			font-size: 1.5em;
+		}
+
+		.fotname {
+			float: left;
+			margin-left: 5em;
+		}
+
+		.fotother {
+			float: right;
+			margin-right: 5em;
+		}
+
+		.icon {
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+
+		
 
 
 

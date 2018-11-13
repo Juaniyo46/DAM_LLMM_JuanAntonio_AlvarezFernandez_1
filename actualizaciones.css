@@ -65,13 +65,29 @@ html {
 			padding-left: 15%;
 			padding-right: 15%;
 			font-size: 1.2em;
+			clear: both;
 		}
 
-		.list {
+		.list1 {
 			border-style: outset;
+			float: left;
+			width: 49%;
+			padding-bottom: 2em;
+			margin-bottom: 2em;
+		}
 
+		.list2 {
+			border-style: outset;
+			float: right;
+			width: 49%;
 		}
 
 		.resaltado:hover {
 			color: red;
+		}
+
+		.fix {
+			position: fixed;
+			right: 100px;
+			top: 0px;
 		}
